@@ -8,7 +8,7 @@ https://gulfaniputra.github.io/udin-min-wage/
 
 ## About
 
-> This project is part of The Udin Project (a collection of @gulfaniputra personal projects).
+> This project is part of The Udin Project (a collection of [@gulfaniputra](https://github.com/gulfaniputra/) personal projects).
 
 This project is about building a basic Indonesia's minimum wage rates website. It consist of a main index page which displays the minimum wage rates based on user's pick of provinces. The main objective is to practice using JavaScript concepts to retrieve and print data.
 

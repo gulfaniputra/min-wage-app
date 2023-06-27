@@ -1,2 +1,5 @@
-const provinceList = ["East Kalimantan"];
-const minWageRates = [2981379];
+document.getElementById("submit").addEventListener("click", minWage);
+
+function minWage() {
+  document.getElementById("rate").innerHTML = "get and print the JSON file!";
+}
