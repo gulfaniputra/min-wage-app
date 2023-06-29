@@ -14,8 +14,8 @@ This project is about building a basic Indonesia's minimum wage rates website. I
 
 The topics that is applied includes:
 
-* HTML forms:
-  * `select` element:
+* HTML:
+  * `form` element and `select` element:
     ```
     <form>
       <select name="">
@@ -32,6 +32,7 @@ The topics that is applied includes:
     ]
     ```
   * `click` event, `getElementById()` method, and `innerHTML` property:
+
     ```
     document.getElementById("").onclick = function() {someFunction()};
 
