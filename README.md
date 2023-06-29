@@ -16,6 +16,7 @@ The topics that is applied includes:
 
 * HTML:
   * `form` element and `select` element:
+  
     ```
     <form>
       <select name="">
@@ -26,6 +27,7 @@ The topics that is applied includes:
   * `button` element: `<button></button>`
 * JavaScript:
   * basic JSON file structure and format:
+
     ```
     [
       {"firstProperty":"Value A", "secondProperty":"Value B"}
