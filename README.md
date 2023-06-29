@@ -24,3 +24,18 @@ The topics that is applied includes:
     </form>
     ```
   * `button` element: `<button></button>`
+* JavaScript:
+  * basic JSON file structure and format:
+    ```
+    [
+      {"firstProperty":"Value A", "secondProperty":"Value B"}
+    ]
+    ```
+  * `click` event, `getElementById()` method, and `innerHTML` property:
+    ```
+    document.getElementById("").onclick = function() {someFunction()};
+
+    function someFunction() {
+    document.getElementById("").innerHTML = "Hello, World!";
+    }
+    ```
