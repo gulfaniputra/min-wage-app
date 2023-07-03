@@ -1,6 +1,6 @@
 # Project: Indonesia's Minimum Wage Rates
 
-*Note: this project is still a work in progress.*
+_Note: this project is still a work in progress._
 
 ## Live Preview
 
@@ -14,31 +14,34 @@ This project is about building a basic Indonesia's minimum wage rates website. I
 
 The topics that is applied includes:
 
-* HTML:
-  * `form` element and `select` element:
-  
+- HTML:
+
+  - `select` element:
+
     ```
-    <form>
-      <select name="">
-        <option value=""></option>
-      </select>
-    </form>
+    <select id="">
+      <option value="">first option</option>
+      <option value="">second option</option>
+      <option value="">third option</option>
+    </select>
     ```
-  * `button` element: `<button></button>`
-* JavaScript:
-  * basic JSON file structure and format:
+
+  - `input` element: `<input id="" type="" value="">`
+
+- JavaScript:
+
+  - basic JSON file structure and format:
 
     ```
     [
       {"firstProperty":"Value A", "secondProperty":"Value B"}
     ]
     ```
-  * `click` event, `getElementById()` method, and `innerHTML` property:
+
+  - `click` event, `getElementById()` method, and `innerHTML` property:
 
     ```
-    document.getElementById("").onclick = function() {someFunction()};
-
-    function someFunction() {
-    document.getElementById("").innerHTML = "Hello, World!";
-    }
+    someId.onclick = function () {
+      document.getElementById("").innerHTML = "Hello, world!";
+    };
     ```
