@@ -1,6 +1,13 @@
 const json = '{"provinceName":"East Kalimantan", "minWageRate":2981379}';
-const obj = JSON.parse(json);
+const object = JSON.parse(json);
 
 enter.onclick = function () {
-  document.getElementById("rate").innerHTML = obj.minWageRate;
+  let selectedOption = select.options[select.selectedIndex];
+
+  if (selectedOption.text == "Pick A Province") {
+    document.getElementById("rate").innerHTML = "Please pick a province";
+  } else if (selectedOption.text != "Pick A Province") {
+    if (selectedOption.text == object.provinceName)
+      document.getElementById("rate").innerHTML = object.minWageRate;
+  }
 };
