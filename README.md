@@ -12,36 +12,12 @@ https://gulfaniputra.github.io/udin-min-wage/
 
 This project is about building a basic Indonesia's minimum wage rates website. It consist of a main index page which displays the minimum wage rates based on user's pick of provinces. The main objective is to practice using JavaScript concepts to retrieve and print data.
 
-The topics that is applied includes:
+The topics applied includes:
 
 - HTML:
 
-  - `select` element:
-
-    ```
-    <select id="">
-      <option value="">first option</option>
-      <option value="">second option</option>
-      <option value="">third option</option>
-    </select>
-    ```
-
-  - `input` element: `<input id="" type="" value="">`
+  - `select` element and `input` element.
 
 - JavaScript:
 
-  - basic JSON file structure and format:
-
-    ```
-    [
-      {"firstProperty":"Value A", "secondProperty":"Value B"}
-    ]
-    ```
-
-  - `click` event, `getElementById()` method, and `innerHTML` property:
-
-    ```
-    someId.onclick = function () {
-      document.getElementById("").innerHTML = "Hello, world!";
-    };
-    ```
+  - JSON, `click` event, `selectedIndex` property, `getElementById()` method, and `innerHTML` property.
