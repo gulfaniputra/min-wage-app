@@ -1,7 +1,7 @@
 const json = '{"provinceName":"East Kalimantan", "minWageRate":2981379}';
 const object = JSON.parse(json);
 
-enter.onclick = function () {
+document.getElementById("enter").onclick = function () {
   let selectedOption = select.options[select.selectedIndex];
 
   if (selectedOption.text == "Pick A Province") {
