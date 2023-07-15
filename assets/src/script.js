@@ -3,11 +3,11 @@ const provincesList = [
   { provinceName: "West Kalimantan", minWageRate: 2399699 },
   { provinceName: "Central Kalimantan", minWageRate: 2903145 },
   { provinceName: "South Kalimantan", minWageRate: 2877449 },
-  { provinceName: "East Kalimantan", minWageRate: 2877449 },
+  { provinceName: "East Kalimantan", minWageRate: 2981379 },
   { provinceName: "North Kalimantan", minWageRate: 3000804 },
 ];
 
-document.getElementById("enter").onclick = function () {
+document.getElementById("select").onchange = function () {
   let selectedOption = select.options[select.selectedIndex];
 
   if (

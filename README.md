@@ -16,8 +16,12 @@ The topics applied includes:
 
 - HTML:
 
-  - `select` element and `input` element.
+  - `select` element.
 
 - JavaScript:
 
-  - JSON, `click` event, `selectedIndex` property, `getElementById()` method, and `innerHTML` property.
+  - JSON, `change` event, `selectedIndex` property, `getElementById()` method, and `innerHTML` property.
+
+## Data Source
+
+The minimum wage rates data is retrieved from Indonesia Government's [_Badan Pusat Statistik_](https://www.bps.go.id/indicator/19/220/1/upah-minimum-regional-propinsi.html) (Statistics Indonesia).
