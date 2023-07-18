@@ -8,7 +8,7 @@ https://gulfaniputra.github.io/udin-min-wage/
 
 ## About
 
-> This project is part of The Udin Project (a collection of [@gulfaniputra](https://github.com/gulfaniputra/) personal projects).
+> This project is part of The Udin Project: a collection of Gulfani Putra ([@gulfaniputra](https://github.com/gulfaniputra/)) personal projects.
 
 This project is about building a basic Indonesia's minimum wage rates website. It consist of a main index page which displays the minimum wage rates based on user's pick of provinces. The main objective is to practice using JavaScript concepts to retrieve and print data.
 
@@ -18,10 +18,14 @@ The topics applied includes:
 
   - `select` element.
 
+- CSS:
+
+  - Bootstrap.
+
 - JavaScript:
 
-  - JSON, `change` event, `selectedIndex` property, `getElementById()` method, and `innerHTML` property.
+  - `change` event, `selectedIndex` property, `getElementById` method, and `innerHTML` property.
 
 ## Data Source
 
-The minimum wage rates data is retrieved from Indonesia Government's [_Badan Pusat Statistik_](https://www.bps.go.id/indicator/19/220/1/upah-minimum-regional-propinsi.html) (Statistics Indonesia).
+The minimum wage rates [data](https://www.bps.go.id/indicator/19/220/1/upah-minimum-regional-propinsi.html) is retrieved from Indonesia Government's Statistics Indonesia ([@bps-statistics](https://github.com/bps-statistics)).

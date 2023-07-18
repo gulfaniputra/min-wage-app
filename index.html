@@ -1,56 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content="Hugo 0.112.5" />
     <title>Udin Min Wage</title>
+    <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./assets/stylesheet/style.css" rel="stylesheet" />
   </head>
 
   <body>
-    <h2>Indonesia's 2020 Minimum Wage Rates</h2>
+    <main class="container">
+      <div class="bg-body-tertiary p-5 rounded mt-3">
+        <h1>Indonesia's 2020 Minimum Wage Rates</h1>
+        <select
+          id="select"
+          class="form-select form-select-lg mb-3"
+          aria-label=".form-select-lg example"
+        >
+          <option value="province" selected>Pick A Province</option>
+          <option value="aceh">Aceh</option>
+          <option value="north-sumatra">North Sumatra</option>
+          <option value="west-sumatra">West Sumatra</option>
+          <option value="riau">Riau</option>
+          <option value="jambi">Jambi</option>
+          <option value="south-sumatra">South Sumatra</option>
+          <option value="bengkulu">Bengkulu</option>
+          <option value="lampung">Lampung</option>
+          <option value="bangka-belitung">Bangka Belitung Islands</option>
+          <option value="riau-islands">Riau Islands</option>
+          <option value="jakarta">Special Capital Region Of Jakarta</option>
+          <option value="west-java">West Java</option>
+          <option value="central-java">Central Java</option>
+          <option value="yogyakarta">Special Region Of Yogyakarta</option>
+          <option value="east-java">East Java</option>
+          <option value="banten">Banten</option>
+          <option value="bali">Bali</option>
+          <option value="west-nusa-tenggara">West Nusa Tenggara</option>
+          <option value="east-nusa-tenggara">East Nusa Tenggara</option>
+          <option value="west-kalimantan">West Kalimantan</option>
+          <option value="central-kalimantan">Central Kalimantan</option>
+          <option value="south-kalimantan">South Kalimantan</option>
+          <option value="east-kalimantan">East Kalimantan</option>
+          <option value="north-kalimantan">North Kalimantan</option>
+          <option value="north-sulawesi">North Sulawesi</option>
+          <option value="central-sulawesi">Central Sulawesi</option>
+          <option value="south-sulawesi">South Sulawesi</option>
+          <option value="southeast-sulawesi">Southeast Sulawesi</option>
+          <option value="gorontalo">Gorontalo</option>
+          <option value="west-sulawesi">West Sulawesi</option>
+          <option value="maluku">Maluku</option>
+          <option value="north-maluku">North Maluku</option>
+          <option value="west-papua">West Papua</option>
+          <option value="papua">Papua</option>
+        </select>
+        <h3 id="rate"></h3>
+      </div>
+    </main>
 
-    <select id="select">
-      <option value="province" selected>Pick A Province</option>
-      <option value="aceh">Aceh</option>
-      <option value="north-sumatra">North Sumatra</option>
-      <option value="west-sumatra">West Sumatra</option>
-      <option value="riau">Riau</option>
-      <option value="jambi">Jambi</option>
-      <option value="south-sumatra">South Sumatra</option>
-      <option value="bengkulu">Bengkulu</option>
-      <option value="lampung">Lampung</option>
-      <option value="bangka-belitung">Bangka Belitung Islands</option>
-      <option value="riau-islands">Riau Islands</option>
-      <option value="jakarta">Special Capital Region Of Jakarta</option>
-      <option value="west-java">West Java</option>
-      <option value="central-java">Central Java</option>
-      <option value="yogyakarta">Special Region Of Yogyakarta</option>
-      <option value="east-java">East Java</option>
-      <option value="banten">Banten</option>
-      <option value="bali">Bali</option>
-      <option value="west-nusa-tenggara">West Nusa Tenggara</option>
-      <option value="east-nusa-tenggara">East Nusa Tenggara</option>
-      <option value="west-kalimantan">West Kalimantan</option>
-      <option value="central-kalimantan">Central Kalimantan</option>
-      <option value="south-kalimantan">South Kalimantan</option>
-      <option value="east-kalimantan">East Kalimantan</option>
-      <option value="north-kalimantan">North Kalimantan</option>
-      <option value="north-sulawesi">North Sulawesi</option>
-      <option value="central-sulawesi">Central Sulawesi</option>
-      <option value="south-sulawesi">South Sulawesi</option>
-      <option value="southeast-sulawesi">Southeast Sulawesi</option>
-      <option value="gorontalo">Gorontalo</option>
-      <option value="west-sulawesi">West Sulawesi</option>
-      <option value="maluku">Maluku</option>
-      <option value="north-maluku">North Maluku</option>
-      <option value="west-papua">West Papua</option>
-      <option value="papua">Papua</option>
-    </select>
+    <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a
+          class="navbar-brand"
+          href="https://gulfaniputra.github.io/udin-min-wage/"
+          >Udin Min Wage</a
+        >
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="https://github.com/gulfaniputra/udin-min-wage"
+                >code</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/gulfaniputra"
+                >@gulfaniputra</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-    <!-- returns the user's selected province minimum wage rate -->
-    <p id="rate"></p>
-
+    <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/src/script.js"></script>
   </body>
 </html>
