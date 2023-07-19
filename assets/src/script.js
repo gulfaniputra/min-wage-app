@@ -39,11 +39,16 @@ const provincesList = [
 document.getElementById("select").onchange = function () {
   let selectedOption = select.options[select.selectedIndex];
 
+  let convertRateRupiah = new Intl.NumberFormat("id-ID", {
+    style: "currency",
+    currency: "IDR",
+  }).format(provincesList[select.selectedIndex].minWageRate);
+
   if (
     selectedOption.text === provincesList[select.selectedIndex].provinceName
   ) {
-    document.getElementById("rate").innerHTML = `The minimum wage rate is ${
-      provincesList[select.selectedIndex].minWageRate
-    }.`;
+    document.getElementById(
+      "rate"
+    ).innerHTML = `The minimum wage rate is ${convertRateRupiah}.`;
   }
 };

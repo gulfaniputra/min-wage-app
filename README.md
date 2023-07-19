@@ -24,7 +24,7 @@ The topics applied includes:
 
 - JavaScript:
 
-  - `change` event, `selectedIndex` property, `getElementById` method, and `innerHTML` property.
+  - `change` event, `selectedIndex` property, `getElementById` method, `innerHTML` property, and `Intl.NumberFormat` object.
 
 ## Data Source
 
