@@ -1,5 +1,5 @@
 const provincesList = [
-  { provinceName: "Pick A Province", minWageRate: 0 },
+  { provinceName: "Click For Provinces List", minWageRate: 0 },
   { provinceName: "Aceh", minWageRate: 3165031 },
   { provinceName: "North Sumatra", minWageRate: 2499423 },
   { provinceName: "West Sumatra", minWageRate: 2484041 },
@@ -47,8 +47,6 @@ document.getElementById("select").onchange = function () {
   if (
     selectedOption.text === provincesList[select.selectedIndex].provinceName
   ) {
-    document.getElementById(
-      "rate"
-    ).innerHTML = `The minimum wage rate is ${convertRateRupiah}.`;
+    document.getElementById("rate").innerHTML = convertRateRupiah;
   }
 };

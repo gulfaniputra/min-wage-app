@@ -12,13 +12,13 @@
   <body>
     <main class="container">
       <div class="bg-body-tertiary p-5 rounded mt-3">
-        <h1>Indonesia's 2020 Minimum Wage Rates</h1>
+        <h1 class="display-5">Indonesia's 2020 Minimum Wage Rates</h1>
         <select
           id="select"
           class="form-select form-select-lg mb-3"
           aria-label=".form-select-lg example"
         >
-          <option value="province" selected>Pick A Province</option>
+          <option value="province" selected>Click For Provinces List</option>
           <option value="aceh">Aceh</option>
           <option value="north-sumatra">North Sumatra</option>
           <option value="west-sumatra">West Sumatra</option>
@@ -54,7 +54,18 @@
           <option value="west-papua">West Papua</option>
           <option value="papua">Papua</option>
         </select>
-        <h3 id="rate"></h3>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Minimum Wage Rate</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td id="rate">Please pick a province first!</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </main>
 
