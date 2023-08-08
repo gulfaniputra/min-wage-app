@@ -47,6 +47,6 @@ document.getElementById("select").onchange = function () {
   if (
     selectedOption.text === provincesList[select.selectedIndex].provinceName
   ) {
-    document.getElementById("rate").innerHTML = convertRateRupiah;
+    document.getElementById("rate").textContent = convertRateRupiah;
   }
 };
