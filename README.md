@@ -4,7 +4,7 @@ _**Note:** this project is a work in progress_
 
 ## Demo
 
-https://gulfaniputra.github.io/udin-min-wage/
+https://gulfaniputra.github.io/min-wage-app/
 
 ## About
 
